@@ -1,0 +1,6 @@
+[18-Mar-2026 09:03:07 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home4/crcapor/public_html/crcap/includes/db.php:37
+Stack trace:
+#0 /home4/crcapor/public_html/crcap/includes/db.php(37): PDO->prepare('SELECT setting_...')
+#1 /home4/crcapor/public_html/crcap/pages/contato.php(9): dbFetchAll(Object(PDO), 'SELECT setting_...')
+#2 {main}
+  thrown in /home4/crcapor/public_html/crcap/includes/db.php on line 37
