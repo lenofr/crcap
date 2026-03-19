@@ -1,0 +1,6 @@
+[17-Mar-2026 22:01:03 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crcapor_crc2026.sliders' doesn't exist in /home4/crcapor/public_html/crcap/includes/db.php:37
+Stack trace:
+#0 /home4/crcapor/public_html/crcap/includes/db.php(37): PDO->prepare('SELECT * FROM s...')
+#1 /home4/crcapor/public_html/crcap/index.php(9): dbFetchAll(Object(PDO), 'SELECT * FROM s...')
+#2 {main}
+  thrown in /home4/crcapor/public_html/crcap/includes/db.php on line 37
