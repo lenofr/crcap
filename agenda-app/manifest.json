@@ -1,0 +1,38 @@
+{
+  "name": "Agenda do Presidente - CRCAP",
+  "short_name": "Agenda CRCAP",
+  "description": "Agenda Oficial do Presidente do CRCAP",
+  "start_url": "/crcap/agenda-app/",
+  "scope": "/crcap/agenda-app/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#001644",
+  "theme_color": "#001644",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/crcap/agenda-app/icon-192.png?v=1772977528",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/crcap/agenda-app/icon-192.png?v=1772977528",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/crcap/agenda-app/icon-512.png?v=1772977528",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/crcap/agenda-app/icon-512.png?v=1772977528",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

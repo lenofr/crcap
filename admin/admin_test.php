@@ -1,0 +1,1 @@
+<?php echo "ADMIN OK - PHP WORKS - " . date("H:i:s"); ?>
